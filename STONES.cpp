@@ -25,10 +25,10 @@ int main()
 			freq2[B[i]-'A']++;
 		for(i=0;i<100;i++)
 		{
-			if( freq1[i]<=freq2[i] )
-				ans+=freq1[i];
-			else
+			if( freq1[i]>0 )
+			{
 				ans+=freq2[i];
+			}
 		}
 		cout<<ans<<endl;
 	}
