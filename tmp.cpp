@@ -1,10 +1,12 @@
-iasdf
-asd
-fa
-sdf
-asdfadfa
-sfd
-asdfas
-dfa
-sdf
-as
+#include<iostream>
+#include<map>
+using namespace std;
+
+int main()
+{
+	map<int,int> a;
+	a[1]++;
+	cout<<"THe value is "<<a[1]<<endl;
+	cout<<"THe value is "<<a[1]<<endl;
+	return 0;
+}
